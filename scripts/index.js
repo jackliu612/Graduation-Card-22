@@ -13,11 +13,14 @@ openBtn.onclick = function () {
     }
 };
 
-const jsConfetti = new JSConfetti()
+let jsConfetti;
+function setup() {
+    jsConfetti = new JSConfetti()
 
-// new CircleType(document.getElementById('topText'))
-//     .radius(350);
+    new CircleType(document.getElementById('topText'))
+        .radius(350);
 
-// new CircleType(document.getElementById('bottomText'))
-//     .dir(-1)
-//     .radius(350);
+    new CircleType(document.getElementById('bottomText'))
+        .dir(-1)
+        .radius(350);
+}
