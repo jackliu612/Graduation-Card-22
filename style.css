@@ -44,7 +44,7 @@ body {
     transform: rotate3d(0, 1, 0, 0deg);
 }
 .card__panel--front {
-        background: #FFFFFF;  /* fallback for old browsers */
+    background: #FFFFFF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
@@ -53,11 +53,17 @@ body {
     backface-visibility: hidden;
 }
 .card__panel--inside-left {
+    background: #FFFFFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* border-right: 1px solid black ; */
     background: #fff;
     z-index: 0;
 }
 .card__panel--inside-right {
+    background: #FFFFFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* border-left: 1px solid grey ; */
     border-left: none;
     background: #fff;
@@ -97,4 +103,9 @@ img{
     width:100%;
     max-width:500px;
     margin: -20%;
+}
+
+#rotunda {
+    width: 70%;
+    border-radius: 100%;
 }
