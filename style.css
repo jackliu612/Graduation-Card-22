@@ -57,7 +57,6 @@ body {
     background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* border-right: 1px solid black ; */
-    background: #fff;
     z-index: 0;
 }
 .card__panel--inside-right {
@@ -66,7 +65,6 @@ body {
     background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* border-left: 1px solid grey ; */
     border-left: none;
-    background: #fff;
     z-index: -1;
 }
 
@@ -81,9 +79,45 @@ body {
     transform: rotate3d(0, 1, 0, -170deg);
 }
 
+#rotunda {
+    width: 70%;
+    border-radius: 100%;
+}
+
+.rightContent {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    margin: 2em;
+    font-size: 1em;
+    text-align: left;
+}
+
+#sig {
+    font-family: 'Water Brush', cursive;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+#sig::before {
+    font-family: 'Water Brush', cursive;
+    content: "—";
+}
+
+@media (max-width: 768px) {
+    #rotunda {
+        visibility: hidden;
+    }
+}
+
 @media (min-width: 768px) {
     .open .card__container {
         transform: translate(0%, -50%);
+    }
+
+    .rightContent {
+        margin: 2em;
+        font-size: 1.25em;
+        text-align: left;
     }
 }
 
@@ -103,9 +137,4 @@ img{
     width:100%;
     max-width:500px;
     margin: -20%;
-}
-
-#rotunda {
-    width: 70%;
-    border-radius: 100%;
 }
