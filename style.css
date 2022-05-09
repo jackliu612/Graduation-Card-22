@@ -67,8 +67,8 @@ body {
     background: linear-gradient(to bottom, #FFFFFF, #ECE9E6 );
     /* border-right: 1px solid black ; */
     /* background: radial-gradient(circle at left, #e66465, #9198e5);    */
-    outline: 5px double skyblue;
-    outline-offset: -1em;
+    /* outline: 5px double skyblue;
+    outline-offset: -1em; */
     z-index: 0;
 }
 .card__panel--inside-right {
@@ -78,8 +78,8 @@ body {
     /* border-left: 1px solid grey ; */
     /* background: radial-gradient(circle at left, #e66465, #9198e5);    */
     border-left: none;
-    outline: 5px double skyblue;
-    outline-offset: -1em;
+    /* outline: 5px double skyblue;
+    outline-offset: -1em; */
     z-index: -1;
 }
 
@@ -98,8 +98,8 @@ body {
     width: 70%;
     border-radius: 100%; 
     transform: scaleX(-1);
-    outline: 5px double skyblue;
-    outline-offset: 5px;
+    /* outline: 5px double skyblue;
+    outline-offset: 5px; */
 }
 
 .rightContent {
