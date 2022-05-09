@@ -45,26 +45,32 @@ body {
 }
 .card__panel--front {
     background: #FFFFFF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    /* background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: radial-gradient(#e66465, #9198e5);    
     z-index: 1;
 
     backface-visibility: hidden;
 }
 .card__panel--inside-left {
     background: #FFFFFF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6 );
     /* border-right: 1px solid black ; */
+    /* background: radial-gradient(circle at left, #e66465, #9198e5);    */
+    outline: 5px double skyblue;
+    outline-offset: -1em;
     z-index: 0;
 }
 .card__panel--inside-right {
     background: #FFFFFF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6);
     /* border-left: 1px solid grey ; */
+    /* background: radial-gradient(circle at left, #e66465, #9198e5);    */
     border-left: none;
+    outline: 5px double skyblue;
+    outline-offset: -1em;
     z-index: -1;
 }
 
@@ -81,7 +87,10 @@ body {
 
 #rotunda {
     width: 70%;
-    border-radius: 100%;
+    border-radius: 100%; 
+    transform: scaleX(-1);
+    outline: 5px double skyblue;
+    outline-offset: 5px;
 }
 
 .rightContent {
