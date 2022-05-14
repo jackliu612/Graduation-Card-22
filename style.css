@@ -45,8 +45,8 @@ body {
 }
 .card__panel--front {
     background: #FFFFFF;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);   */
-    /* background: linear-gradient(to bottom, #FFFFFF, #ECE9E6);  */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); 
     /* background: radial-gradient(#e66465, #9198e5);     */
     z-index: 1;
 
